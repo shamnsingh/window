@@ -1,0 +1,221 @@
+p {  
+  text-indent: 2.0em;  
+}  
+
+#control {
+    position:absolute;
+    top: 10px;
+    left: 45px;
+    float: left;
+    z-index: 0;
+}
+
+#window1 {
+	height: 300px;
+	background-color: #555555;
+	vertical-align: top;
+	opacity: 1;
+	transition: opactiy 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+}
+
+#window2 {
+	height: 300px;
+	background-color: #777777;
+	vertical-align: top;
+	opacity: 1;
+	transition: opactiy 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+}
+
+#window2:hover {
+	opacity:0.5;
+}
+
+.circle {
+    border-radius:50%;
+    background: #CD5C5C;
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    z-index: 1;
+    box-shadow: 2px 3px 0px 1px #333333;
+    transition: opactiy 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.circle:hover {
+	box-shadow: 0 0 0 0;
+	top: 265px;
+    left: 55px;
+}
+
+.abouttext {
+	font-family: Verdana;
+	font-weight: 400;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	font-size: 20px;
+	position: absolute;
+    top: 235px;
+    left: 50px;
+    z-index: 2;
+}
+
+.interesttext {
+	font-family: Verdana;
+	font-weight: 400;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	font-size: 20px;
+	position: absolute;
+    top: 235px;
+    left: 193px;
+    z-index: 2;
+}
+
+.contacttext {
+	font-family: Verdana;
+	font-weight: 400;
+	font-variant: small-caps;
+	color: #FFFFFF;
+	font-size: 20px;
+	position: absolute;
+    top: 235px;
+    left: 345px;
+    z-index: 2;
+}
+
+
+.circleinterest {
+    border-radius:50%;
+    background: #ffbe4e;
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    z-index: 1;
+    box-shadow: 2px 3px 0px 1px #333333;
+    transition: opactiy 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.circleinterest:hover {
+	box-shadow: 0 0 0 0;
+	top: 265px;
+    left: 205px;
+}
+
+.circlecontact {
+    border-radius:50%;
+    background: #CD5C5C;
+    width:100px;
+    height:100px;
+    float:right;
+    position: absolute;
+    top: 260px;
+    left: 350px;
+    z-index: 1;
+    box-shadow: 2px 3px 0px 1px #333333;
+    transition: opactiy 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+}
+
+.circlecontact:hover {
+	box-shadow: 0 0 0 0;
+	top: 265px;
+    left: 355px;
+}
+
+#sidebar {
+    float:right;
+    height:100%;
+    position:absolute;
+    top: 0px;
+    left: 600px;
+    z-index: 1;
+    background-color:#777777;
+    width:50%;
+    display:none;
+}
+
+#sidebar .aboutme {
+	font-family: Arial;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 15px;
+	position: absolute;
+    z-index: 2;
+    margin-left: 20px;
+    margin-right:100px;
+}
+
+#sidebarinterest {
+    float:right;
+    height:100%;
+    position:absolute;
+    top: 0px;
+    left: 600px;
+    z-index: 2;
+    background-color:#555555;
+    width:50%;
+    display:none;
+}
+
+#sidebarinterest .interestwrite {
+	font-family: Arial;
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 15px;
+	position: absolute;
+    z-index: 3;
+}
+
+#sidebarcontact {
+    float:right;
+    height:100%;
+    position:absolute;
+    top: 0px;
+    left: 600px;
+    z-index: 3;
+    background-color:#777777;
+    width:50%;
+    display:none;
+}
+
+#sidebarcontact .contactwrite {
+	font-family: 'Courier New';
+	font-weight: 400;
+	color: #FFFFFF;
+	font-size: 15px;
+	position: absolute;
+    z-index: 4;
+    margin-left: 20px;
+    margin-right: 100px;
+}
+
+
+/*#name {
+	color: #EEEEEE;
+	font-family: Arial;
+	font-weight: 800;
+	font-size: 30px;
+	position: relative;
+	background-color: #444444;
+	opacity: 1;
+	transition: opactiy 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	-webkit-transition: opacity 0.25s ease-in-out;
+}
+	
+	#name:hover {
+		opacity: 0.9;
+	};*/
