@@ -140,7 +140,7 @@ p {
     height:100%;
     position:absolute;
     top: 0px;
-    left: 600px;
+    right: 0px;
     z-index: 1;
     background-color:#777777;
     width:50%;
@@ -163,7 +163,7 @@ p {
     height:100%;
     position:absolute;
     top: 0px;
-    left: 600px;
+    right: 0px;
     z-index: 2;
     background-color:#555555;
     width:50%;
@@ -184,7 +184,7 @@ p {
     height:100%;
     position:absolute;
     top: 0px;
-    left: 600px;
+    right: 0px;
     z-index: 3;
     background-color:#777777;
     width:50%;
